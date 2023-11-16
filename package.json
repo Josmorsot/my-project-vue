@@ -1,6 +1,7 @@
 {
   "name": "my-project-vue",
   "version": "0.1.0",
+  "main": "dist/my-project-vue.umd.min.js",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
