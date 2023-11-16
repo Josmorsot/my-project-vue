@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <button>HOLA</button>
+    <button class="text is-small is-semibold is-txtPrimary" @click="onClick">HOLA</button>
   </div>
 </template>
 
@@ -10,6 +10,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods: {
+    onClick () {
+      console.log('asdasd')
+    }
   }
 }
 </script>
